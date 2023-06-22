@@ -2,7 +2,8 @@
     "compilerOptions": {
       "module": "commonjs",
       "target": "es6",
-      "outDir": "dist"
+      "outDir": "dist",
+      "noImplicitAny": true
     },
     "include": [
       "./src/**/*.ts",
